@@ -5,4 +5,4 @@ let colore = prompt("inserisci il tuo colore preferito");
 let password = "La tua password è: " + nome + cognome + colore + "#24";
 alert(password);
 
-document.getElementById("text").innerHTML = password;
+document.getElementById("joke").innerHTML = password;

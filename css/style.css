@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-image: url(../img/maxresdefault.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#joke{
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+}
+
+
+div:hover #joke{
+    display: none;
+}
+
+#nojoke{
+    display: none;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+}
+
+div:hover #nojoke{
+    display: block;
+}
+
+
+
+
